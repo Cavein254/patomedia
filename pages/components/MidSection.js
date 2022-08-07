@@ -1,17 +1,15 @@
 import React from "react";
-
 const MidSection = () => {
   return (
     <div>
       <footer className="">
-        <div className="bg-black">
+        <div className="bg-black bg-opacity-70">
           {/* Call to action button  */}
-          <div className=" flex justify-between flex-col-reverse md:flex-row-reverse px-24 mx-auto">
+          <div className=" flex justify-between flex-col-reverse md:flex-row-reverse px-24 mx-auto ">
             <form className="pb-12">
               <div>
                 {/* form image  */}
                 <div className="flex flex-col min-w-full justify-center items-center">
-                  <div>Image</div>
                   <div className="text-white pt-4">
                     Do you have an account? Sign up to register for events, earn
                     points, and more!

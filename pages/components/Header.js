@@ -1,18 +1,28 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+import { FaGuitar } from "react-icons/fa";
 
 function Header() {
   return (
-    <div>
+    <div className="sticky top-0 z-50">
       <Head>
         {/* logo */}
-        <div className="flex flex-row justify-between bg-black pl-2 m-0 ">
-          <div className="flex flex-col text-white">
-            <div className=" text-2xl">PATO</div>
-            <div className=" text-sm">International</div>
-            <div className="text-xs">+253 444 333</div>
+
+        <div className="flex flex-row justify-between bg-black pl-2 m-0">
+          <div className="flex flex-col text-white pl-2 pt-2">
+            <div>
+              <div className="flex flex-row justify-center items-center">
+                <FaGuitar size={45} />
+                <div className=" text-2xl">PATO</div>
+              </div>
+              <div>
+                <div className=" text-sm">International</div>
+                <div className="text-xs">+253 444 333</div>
+              </div>
+            </div>
           </div>
+
           {/* Mid */}
           {/* Todo: Make it hidden in small devices */}
           <div className="text-gray-400 font-xs mt-8 hidden md:flex">
