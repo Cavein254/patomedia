@@ -6,12 +6,12 @@ function Header2() {
     <>
       <div className="flex flex-row justify-between bg-black ">
         <div className="flex flex-col text-white">
-          <div className=" text-2xl">PATO</div>
+          <div className=" text-2xl">PATE</div>
           <div className=" text-sm">International</div>
           <div className="text-xs">+253 444 333</div>
         </div>
         <div>
-          <div className="text-gray-400 font-xs hidden md:flex">
+          <div className="text-gray-400 text-xs hidden md:flex">
             <div className="pr-2">
               <Link href="/">TICKETS</Link>
             </div>

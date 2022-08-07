@@ -1,22 +1,23 @@
 import React from "react";
+import MultiMedia from "./MultiMedia";
 const MidSection = () => {
   return (
     <div>
       <footer className="">
-        <div className="bg-black bg-opacity-70">
+        <div className="bg-black bg-opacity-70 py-16">
           {/* Call to action button  */}
           <div className=" flex justify-between flex-col-reverse md:flex-row-reverse px-24 mx-auto ">
             <form className="pb-12">
               <div>
                 {/* form image  */}
                 <div className="flex flex-col min-w-full justify-center items-center">
-                  <div className="text-white pt-4">
+                  <div className="text-white pt-4 text-lg">
                     Do you have an account? Sign up to register for events, earn
                     points, and more!
                   </div>
                   <div className="pt-4">
                     <input
-                      className="text-lg text-white px-2 py-4 rounded-sm bg-black ring-white border-x-white ring-opacity-50 focus:ring-blue-300 focus:border-2 focus:ring-2 focus:border-blue-300"
+                      className=" text-white px-2 py-4 rounded-sm text-lg bg-black ring-white border-x-white ring-opacity-50 focus:ring-blue-300 focus:border-2 focus:ring-2 focus:border-blue-300"
                       type="text"
                       placeholder="Enter email address to get started..."
                     />
@@ -27,14 +28,14 @@ const MidSection = () => {
                       type="submit"
                       className="text-black bg-blue-300 text-lg max-w-full rounded-sm px-4 py-2 "
                     >
-                      GET STARTED{" "}
+                      GET STARTED &#8594;
                     </button>
                   </div>
                 </div>
               </div>
             </form>
             {/* Links */}
-            <div className="text-white flex flex-row justify-around">
+            <div className="text-white flex flex-row justify-around text-md">
               <div className="">
                 <div className="">LineUp</div>
                 <div className="">Tickets</div>
@@ -57,20 +58,15 @@ const MidSection = () => {
             {/* Large logo */}
             <div className="">
               <div className="text-white">
-                <div className=" text-2xl">PATO</div>
+                <div className=" text-2xl">PATE</div>
                 <div className=" text-sm">International</div>
                 <div className="text-xs">+253 444 333</div>
                 <div className="text-xs">Kasarani Nairobi</div>
                 <div className="text-xl pt-8">240 days, 03:33:11</div>
               </div>
-              <div className=""></div>
-              <div className=""></div>
-              <div className=""></div>
             </div>
           </div>
-          <hr className="border-2 border-blue-300" />
-          <div className=""></div>
-          <div className=""></div>
+          <MultiMedia />
         </div>
       </footer>
     </div>

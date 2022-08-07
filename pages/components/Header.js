@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import { FaGuitar } from "react-icons/fa";
@@ -6,7 +5,7 @@ import { FaGuitar } from "react-icons/fa";
 function Header() {
   return (
     <div className="sticky top-0 z-50">
-      <Head>
+      <div>
         {/* logo */}
 
         <div className="flex flex-row justify-between bg-black pl-2 m-0">
@@ -14,7 +13,7 @@ function Header() {
             <div>
               <div className="flex flex-row justify-center items-center">
                 <FaGuitar size={45} />
-                <div className=" text-2xl">PATO</div>
+                <div className=" text-2xl">PATE</div>
               </div>
               <div>
                 <div className=" text-sm">International</div>
@@ -63,7 +62,7 @@ function Header() {
             <div className="">=</div>
           </div>
         </div>
-      </Head>
+      </div>
     </div>
   );
 }
